@@ -16,7 +16,6 @@ function add(){
     //complete function
     btn.onclick=function(){
       dvcomplete=document.querySelector("#"+unq);
-
       p=dvcomplete.querySelector("p");
       p.style.textDecoration ="line-through";
       dvcomplete.style.backgroundColor="#d4f4dd";
